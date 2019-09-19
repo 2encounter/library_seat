@@ -46,6 +46,7 @@ def postRequest():
 		#response.encoding='utf-8'
 		#print(response.text)
 		print("post done")
+                print(response.text)
 		pass
 	except Exception as e:
 		print("error")
